@@ -1,0 +1,492 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body {
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+}
+
+/* header short information */
+
+#shortinfo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 43px;
+    position: relative;
+}
+
+#shortinfo::before {
+    content: "";
+    background-color: #517e92;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+/* part.1 */
+
+#shortextheader {
+    position: absolute;
+    left: 15px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+/* part.2 */
+
+#mailsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 17px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    color: azure;
+    border-left: 2px solid white;
+}
+
+#numbersection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 132px;
+    height: 26px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    color: azure;
+}
+
+h5 {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.infoimg {
+    width: 15px;
+    margin: 0px 6px;
+    filter: invert(100%)
+}
+
+/* navber menu */
+
+#navbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 0px 13px;
+}
+
+/* part.1 */
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logopic {
+    height: 39px;
+    width: 91px;
+    filter: invert(100%);
+}
+
+#logotext {
+    font-size: 16px;
+    position: absolute;
+    top: 113px;
+    left: 13px;
+    letter-spacing: 0.5px;
+    color: #ce4a41;
+}
+
+/* part.2 */
+
+#navmenu {
+    display: flex;
+    width: 701px;
+    height: 101px;
+    justify-content: center;
+    align-items: center;
+}
+
+#navul {
+    height: 78px;
+    width: 451px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navli {
+    display: inline;
+}
+
+#navtext {
+    padding: 4px 8px;
+    /* color: #00BCD4;
+    color: #22ff2b; 
+    color: #FEE715FF; */
+    color: #0f6288;
+    font-size: 21px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Cantora One', sans-serif; */
+    transition: background-color 0.1s, border-top 0.1s, border-bottom 0.1s;
+}
+
+#navtext:hover {
+    /* background-color: #053246; */
+    border-radius: 10px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+/* part.3 */
+
+#signinbox {
+    height: 55px;
+    width: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signinpic {
+    width: 18%;
+    filter: invert(100%);
+}
+
+#signin {
+    font-size: 20px;
+    padding: 5px 16px;
+    margin: 0px 7px;
+    background: #ffffff;
+    /* color: #4CAF50; */
+    color: #ce4a41;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* home page section 01 */
+
+#sec1 {
+    height: 717px;
+}
+
+/* part.1 */
+
+#texpart {
+    /* border: 2px solid white; */
+    color: wheat;
+    width: 627px;
+    height: 198px;
+    position: absolute;
+    left: 207px;
+    top: 349px;
+}
+
+#texpart h1 {
+    font-size: 69px;
+    letter-spacing: 2px;
+    /* color: #FFEB3B; */
+    color: #ce4a41;
+    font-family: 'Cantora One', sans-serif;
+    width: 244px;
+    height: 161px;
+}
+
+#texpart p {
+    font-size: 17px;
+    color: white;
+    letter-spacing: 0.7px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* part.2 */
+
+#buttonsign {
+    position: absolute;
+    top: 587px;
+    left: 205px;
+}
+
+#buttonsign button {
+    font-size: 20px;
+    padding: 5px 16px;
+    margin: 0px 1px;
+    background: #ffffff;
+    /* color: #4CAF50; */
+    color: #0f6288;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#buttonsign button:hover {
+    background: none;
+    border: 2px solid white;
+    color: #ce4a41;
+    padding: 3px 14px;
+}
+
+/* section.2(services)  */
+
+.allsec {
+    display: flex;
+    position: relative;
+    top: 218px;
+    height: 916px;
+    justify-content: center;
+    margin: 0px;
+}
+
+.container {
+    height: 665px;
+    width: 1073px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 193px;
+}
+
+/* part.1 */
+
+#sec2 h1 {
+    position: absolute;
+    left: 415px;
+    top: -129px;
+    font-size: 66px;
+    color: #0f6288;
+    font-family: 'Cantora One', sans-serif;
+}
+
+/* part.2 */
+
+.sec2container {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 253px;
+    width: 363px;
+    margin: 0px 60px;
+    border-radius: 9px;
+    background-color: #c9ddea;
+    transition: box-shadow 0.4s;
+}
+
+.sec2container:hover {
+    box-shadow: 5px 3px 15px 1px #e88178;
+}
+
+.sec2headingtext {
+    color: #ce4a41;
+    margin-bottom: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.sec2subtext {
+    margin: 0px 10px;
+    font-size: 13px;
+    color: #06435f;
+    letter-spacing: 0.09px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 11px;
+}
+
+/* sec.3(our recent works) */
+
+/* for all css(class=allsec,class=container) */
+
+#sec3 {
+    /* background-color: #f0faff; */
+    background-color: #fff9f9;
+}
+
+/* part.1 */
+
+#sec3 h1 {
+    position: absolute;
+    left: 294px;
+    top: -129px;
+    font-size: 66px;
+    color: #0f6288;
+    font-family: 'Cantora One', sans-serif;
+}
+
+/* part.2 */
+
+.sec3img {
+    width: 26%;
+    border: 5px solid #d8d8e2;
+    margin: 0 18px;
+    padding: 14px 11px;
+}
+
+/* sec.4(client says) */
+
+/* for all css(class=allsec,class=container) */
+
+#sec4 {
+    /* background-color: #fff9f9; */
+    background-color: #f0faff;
+}
+
+/* part.1 */
+
+#sec4 h1 {
+    position: absolute;
+    left: 283px;
+    top: -91px;
+    font-size: 66px;
+    color: #0f6288;
+    font-family: 'Cantora One', sans-serif;
+}
+
+/* part.2 */
+
+.sec4container {
+    background-color: #ffd1ce;
+    display: flex;
+    flex-direction: column;
+    height: 387px;
+    width: 308px;
+    margin: 0px 17px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4subtext {
+    margin: 17px -1px;
+    font-size: 12px;
+    color: #06435f;
+    letter-spacing: 0.09px;
+    font-family: "Poppins", sans-serif;
+    padding: 7px 29px;
+}
+
+.sec4img {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    border-radius: 183px;
+    margin-bottom: 6px;
+}
+
+#sec4 h4 {
+    color: #0f6288;
+}
+
+/* section.5(get in touch) */
+
+/* for all css(class=allsec,class=container) */
+#sec5::before{
+    content: '';
+    background: url(contact.jpg.jpg) no-repeat center center/cover;
+    top: 0;    
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 30%;
+
+}
+
+#sec5container {
+    /* background-color: #ffd1ce; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* part.1 */
+
+#sec5 h1 {
+    position: absolute;
+    left: 360px;
+    top: -129px;
+    font-size: 66px;
+    color: #0f6288;
+    font-family: 'Cantora One', sans-serif;
+}
+
+#sec5 h5 {
+    position: absolute;
+    left: 364px;
+    top: -59px;
+    font-size: 18px;
+    color: #8cb4c5;
+    font-family: 'Cantora One', sans-serif;
+    letter-spacing: 4.1px;
+}
+
+/* part.2 */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 6px;
+    font-size: 16px;
+    width: 736px;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: #95b8f9;
+    font-family: "Poppins", sans-serif;
+    background: none;
+    border: 2px solid #0f6288;
+}
+
+#sec5 textarea {
+    margin: 6px;
+    font-size: 16px;
+    width: 736px;
+    height: 195px;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: #95b8f9;
+    font-family: "Poppins", sans-serif;
+    background: none;
+    border: 2px solid #0f6288;
+}
+
+/* part.3 */
+
+#sec5 button {
+    text-align: center;
+    margin: 6px;
+    font-size: 16px;
+    width: 758px;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: #95b8f9;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid #0f6288;
+    background: none;
+    color: #0f6288;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+#sec5 button:hover{
+    background-color: #fbbbb7;
+}
